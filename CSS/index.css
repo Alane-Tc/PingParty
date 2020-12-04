@@ -10,14 +10,14 @@ body{
 
 #cabecera{
     width: 100%;
-    height: 65px;
+    height: 75px;
     margin: 0px auto;
     min-width: 1024px;
    }
     
    #cabecera h1 {
       text-align: center;
-      font-size: 40px;
+      font-size: 50px;
       font-family: Arial, Helvetica, sans-serif;
       letter-spacing: 4px;
       margin-top: 10px;
@@ -39,7 +39,7 @@ body{
    }
 
    .div_Main{
-    width: 1000px;
+    width: 1100pxpx;
     background-color: #ffe066;
     height: auto;
     margin: 0px auto;
@@ -58,9 +58,13 @@ body{
   
   .grid-item {
     background-color: #06d6a0;
-    border: 1px solid rgba(0, 0, 0, 0.8);
+    border: 2px solid rgba(0, 0, 0, 0.8);
     padding: 20px;
     font-size: 30px;
     text-align: center;
+    border-radius: 10px;
   }
 
+  .subTitle{
+     margin-top: 20px;
+  }
