@@ -68,3 +68,7 @@ body{
   .subTitle{
      margin-top: 20px;
   }
+
+  .img-pointer{
+     cursor: pointer;
+  }
