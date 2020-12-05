@@ -5,6 +5,13 @@
 }
 
 /*Div principal*/
+
+#title-Main{
+   margin-bottom: 25px;
+   font-size: 45px;
+   letter-spacing: 3px;
+}
+
 .div_Main{
     width: 1100px;
     background-color: #ffe066;
@@ -23,5 +30,43 @@
  }
 
  .boxNumber{
+    width: 30%;
+    padding: 6px;
+    border-radius: 8px;
+    border: 2px solid black;
+    font-size: 15px;
     background-color:#f5f3f4;
+    
+ }
+
+ #buttonGenerator{
+   width: 20%;
+   background: #ef233c;
+   border: none;
+   padding: 8px;
+   font-size: 15px;
+   cursor: pointer;
+   border-radius: 8px;
+   color: white;
+   margin-top: 15px;
+ }
+
+ #buttonGenerator:hover{
+   background: #ef476f;
+ }
+
+ #buttonRemove{
+   width: 20%;
+   background: #006d77;
+   border: none;
+   padding: 8px;
+   font-size: 15px;
+   cursor: pointer;
+   border-radius: 8px;
+   color: white;
+   margin-top: 15px;
+ }
+
+ #buttonRemove:hover{
+    background: #83c5be;
  }
