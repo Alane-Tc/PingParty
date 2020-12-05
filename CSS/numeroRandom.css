@@ -1,0 +1,27 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/*Div principal*/
+.div_Main{
+    width: 1100px;
+    background-color: #ffe066;
+    height: 720px;
+    margin: 0px auto;
+    border: 2px solid #636262;
+    box-shadow: 5px 5px 5px black;
+    border-radius: 8px;
+    margin-top: 10px;
+ }
+
+ .grid-item{
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+ }
+
+ .boxNumber{
+    background-color:#f5f3f4;
+ }
