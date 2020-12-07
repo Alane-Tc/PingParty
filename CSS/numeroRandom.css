@@ -70,3 +70,12 @@
  #buttonRemove:hover{
     background: #83c5be;
  }
+
+ #show-Results{
+   width: 35%;
+   height: 200px;
+   display: block;
+   background: #fff;
+   margin: auto;
+   border-radius: 8px;
+}
