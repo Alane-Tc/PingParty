@@ -1,0 +1,48 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+   background: #f5f3f4;
+}
+
+.div_Main{
+    width: 1100px;
+    background-color: #ffe066;
+    height: 720px;
+    margin: 0px auto;
+    border: 2px solid #636262;
+    box-shadow: 5px 5px 5px black;
+    border-radius: 8px;
+ }
+
+  .grid-item{
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+ }
+
+ .grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 15px 10px;
+    grid-template-areas:
+      ". Moneda1 Moneda2 ."
+      ". Moneda3 Moneda4 ."
+      ". . . .";
+  }
+  
+  .Moneda1 { grid-area: Moneda1; }
+  
+  .Moneda2 { grid-area: Moneda2; }
+  
+  .Moneda3 { grid-area: Moneda3; }
+  
+  .Moneda4 { grid-area: Moneda4; }
+  
+img{
+    cursor: pointer;
+}
