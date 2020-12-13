@@ -46,3 +46,7 @@ body{
 img{
     cursor: pointer;
 }
+
+#title-main{
+  margin-bottom: 30px;
+}
