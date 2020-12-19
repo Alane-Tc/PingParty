@@ -4,8 +4,11 @@
       box-sizing: border-box;
    }
 
-   /*Div principal*/
+   body{
+      background: #f5f3f4;
+   }
 
+   /*Div principal*/
    #title-Main{
       margin-bottom: 25px;
       font-size: 45px;
