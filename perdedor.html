@@ -8,7 +8,6 @@
     <link rel="icon" type="image/x-icon" href="Img/favicon-32x32.png" />
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="librerias/bootstrap-4.5.3-dist/css/bootstrap.min.css">
-    <!----<link rel="stylesheet" href="librerias/uikit/css/uikit-rtl.min.css">-->
     <link rel="stylesheet" href="CSS/perdedor.css">
     <title>¿Quién es ese perdedor?</title>
 </head>
@@ -60,8 +59,20 @@
             <div class="grid-item">
                 <h1 id="title-Main"><b>¿Quién es ese perdedor?</b></h1>
                 <!---Imprimir resultados-->
+                <button type="button" id="buttonGenerator">Empezar</button>
+                <button type="button" id="buttonRemove">Actualizar</button>
                 <div id="show-Results">
-                    <p id="resultsNumber"></p>
+                    <p id="resultsNumber"><b>El perdedor es:</b> <br>
+                        <span id="show-loser"></span>
+                        <div id="img"></div>
+                    </p>
+                </div>
+                <!--Erro-->
+                <div id="show-Alert">
+                    <p id="message"></p>
+                    <div id="image">
+                        
+                    </div>
                 </div>
             </div>
         </div>
@@ -85,8 +96,7 @@
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
         crossorigin="anonymous"></script>
     <script src="librerias/bootstrap-4.5.3-dist/js/bootstrap.bundle.min.js"></script>
-    <!--<script src="librerias/uikit/js/uikit-icons.min.js"></script>
-    <script src="librerias/uikit/js/uikit.min.js"></script>-->
+    <script src="JS/perdor.js"></script>
 </body>
 
 </html>
