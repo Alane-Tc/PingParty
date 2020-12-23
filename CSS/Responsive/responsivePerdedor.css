@@ -1,0 +1,151 @@
+body{
+    background: #f5f3f4;
+}
+@media (max-width: 575.98px) { 
+    /*body{background: red;}*/
+
+    .div_Main {
+        width: 100%;
+        background-color: #ffe066;
+        height: 720px;
+    }
+
+    #title-Main {
+        margin-bottom: 25px;
+        font-size: 30px;
+        letter-spacing: 3px;
+    }
+
+    #buttonGenerator{
+        width: 80%;
+    }
+
+    #buttonRemove{
+        width: 80%;
+    }
+
+    #show-Results {
+        width: 80%;
+        height: auto;
+    }
+
+    #show-Alert {
+        width: 90%;
+        height: auto;
+    }
+
+    #message{
+        font-size: 18px;
+    }
+
+    #resultsNumber{
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    /*body{background: green;}*/
+
+    .div_Main {
+        width: 100%;
+        background-color: #ffe066;
+        height: 720px;
+    }
+
+    #title-Main {
+        margin-bottom: 25px;
+        font-size: 30px;
+        letter-spacing: 3px;
+    }
+
+    #buttonGenerator{
+        width: 60%;
+    }
+
+    #buttonRemove{
+        width: 60%;
+    }
+
+    #show-Results {
+        width: 60%;
+        height: auto;
+    }
+
+    #show-Alert {
+        width: 60%;
+        height: auto;
+    }
+
+    #message{
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    /*body{background: yellow;}*/
+
+    .div_Main {
+        width: 100%;
+        background-color: #ffe066;
+        height: 720px;
+    }
+
+    #buttonGenerator{
+        width: 40%;
+    }
+
+    #buttonRemove{
+        width: 40%;
+    }
+
+    #show-Results {
+        width: 55%;
+        height: auto;
+    }
+
+    #show-Alert {
+        width: 55%;
+        height: auto;
+    }
+
+    #message{
+        font-size: 18px;
+    }
+
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    /*body{background: blue;}*/
+
+    .div_Main {
+        width: 100%;
+        background-color: #ffe066;
+        height: 720px;
+    }
+
+    #buttonGenerator{
+        width: 40%;
+    }
+
+    #buttonRemove{
+        width: 40%;
+    }
+
+    #show-Results {
+        width: 45%;
+        height: auto;
+    }
+
+    #show-Alert {
+        width: 45%;
+        height: auto;
+    }
+
+    #message{
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 1200px) { 
+    /*body{background: blueviolet;}*/
+}
