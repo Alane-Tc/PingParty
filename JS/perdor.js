@@ -26,14 +26,14 @@ window.addEventListener("load", function () {
     let imagePensar = () => { divimg.innerHTML = '<img src="Img/hombre-pensando.png" alt="Sad" width="110px" height="110px">' }
 
     let Users = () => {
-        let numbersUsers = parseInt(prompt("¿Cuantos jugadores son?"));
+        let numbersUsers = parseInt(prompt("¿Cuántos jugadores son?"));
         if (numbersUsers < 0) {
             numberNegative();
         } else {
             hideAlertError();
             var nameUsers = []
             for (let index = 0; index < numbersUsers; index++) {
-                nameUsers.push(prompt("Cual es el nombre del jugador: " + (index + 1)));
+                nameUsers.push(prompt("¿Cuál es el nombre del jugador?: " + (index + 1)));
             }
             setTimeout(() => {
                 showRectangule();
