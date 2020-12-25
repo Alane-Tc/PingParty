@@ -1,0 +1,113 @@
+body{
+    background: #f5f3f4;
+}
+@media (max-width: 575.98px) { 
+    /*body{background: red;}*/
+
+    .div_Main{
+        width: 100%;
+        background-color: #ffe066;
+        height: 720px;
+    }
+
+    #title-main{
+        font-size: 30px;
+    }
+
+    .laber-text{
+        font-size: 25px;
+    }
+
+    .inputs {
+        width: 90%;
+    }
+
+    #btn-Calculate {
+        width: 80%;
+    }
+
+    #btn-Clear {
+        width: 80%;
+    }
+
+    #result-Cooperacha{
+        font-size: 30px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    /*body{background: green;}*/
+
+    .div_Main{
+        width: 100%;
+        background-color: #ffe066;
+        height: 720px;
+    }
+
+    #title-main{
+        font-size: 30px;
+    }
+
+    .inputs {
+        width: 80%;
+    }
+
+    #btn-Calculate {
+        width: 40%;
+    }
+
+    #btn-Clear {
+        width: 40%;
+    }
+
+
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    /*body{background: yellow;}*/
+    
+    .div_Main{
+        width: 100%;
+        background-color: #ffe066;
+        height: 720px;
+    }
+
+    .inputs {
+        width: 80%;
+    }
+
+    #btn-Calculate {
+        width: 30%;
+    }
+
+    #btn-Clear {
+        width: 30%;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    /*body{background: blue;}*/
+
+    .div_Main{
+        width: 100%;
+        background-color: #ffe066;
+        height: 720px;
+    }
+
+    .inputs {
+        width: 80%;
+    }
+
+    #btn-Calculate {
+        width: 30%;
+    }
+
+    #btn-Clear {
+        width: 30%;
+    }
+
+}
+
+@media (min-width: 1200px) { 
+    /*body{background: blueviolet;}*/
+}
