@@ -17,7 +17,6 @@ window.addEventListener("load", function () {
         } else if (person < 0) {
             alertError.innerHTML = `<h3>No se pueden digitar numeros negativos</h3>`
         } else {
-
             for (let i = 1; i <= person; i++) {
                 n1 = prompt("¿Cuál es el precio del producto?: " + (i));
                 Total = Total + parseInt(n1);
