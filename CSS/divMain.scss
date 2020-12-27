@@ -1,0 +1,20 @@
+$fondo-div:  #ffe066;
+$tamaño-div:  1100px;
+$bntColorCalcule: #ef233c;
+
+.div_Main{
+    width: $tamaño-div;
+    background-color: $fondo-div;
+    height: 720px;
+    margin: 0px auto;
+    border: 2px solid #636262;
+    box-shadow: 5px 5px 5px black;
+    border-radius: 8px;
+    margin-top: 10px;
+
+    .grid-item{
+        padding: 20px;
+        font-size: 30px;
+        text-align: center;
+    }  
+}
