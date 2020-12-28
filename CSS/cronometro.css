@@ -1,0 +1,55 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.div_Main {
+  width: 1100px;
+  background-color: #ffe066;
+  height: auto;
+  margin: 0px auto;
+  border: 2px solid #636262;
+  box-shadow: 5px 5px 5px black;
+  border-radius: 8px;
+}
+
+.grid-item2 {
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.div_Main-cronometro {
+  width: 1100px;
+  background-color: #ffe066;
+  height: 720px;
+  margin: 0px auto;
+  border: 2px solid #636262;
+  box-shadow: 5px 5px 5px black;
+  border-radius: 8px;
+}
+
+.emerald {
+  width: 20%;
+  background: #457b9d;
+  border: none;
+  padding: 8px;
+  font-size: 15px;
+  cursor: pointer;
+  border-radius: 8px;
+  color: white;
+  margin-top: 15px;
+}
+
+.emerald:hover {
+  background: #a8dadc;
+}
+
+#screen {
+  margin-top: 15px;
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+
+/*# sourceMappingURL=cronometro.css.map */

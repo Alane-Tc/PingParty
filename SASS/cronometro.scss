@@ -1,0 +1,39 @@
+$colorBtn: #457b9d;
+$colorhover: #a8dadc;
+@use 'divMain';
+
+@mixin marginTop ($size) {
+    margin-top: $size;
+}
+
+@mixin marginBottom ($size) {
+    margin-bottom: $size;
+}
+
+@mixin fontSize ($size) {
+    font-size: $size;
+}
+//botones
+.emerald{
+    width: 20%;
+    background: $colorBtn;
+    border: none;
+    padding: 8px;
+    @include fontSize(15px);
+    cursor: pointer;
+    border-radius: 8px;
+    color: white;
+    margin-top: 15px;
+}
+
+.emerald:hover{
+    background: $colorhover
+}
+
+#screen{
+    @include marginTop(15px);
+    @include fontSize(40px);
+    @include marginBottom(15px);
+    
+}
+
