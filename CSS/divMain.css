@@ -20,4 +20,14 @@
   text-align: center;
 }
 
-/*# sourceMappingURL=divmain.css.map */
+.div_Main-cronometro {
+  width: 1100px;
+  background-color: #ffe066;
+  height: 720px;
+  margin: 0px auto;
+  border: 2px solid #636262;
+  box-shadow: 5px 5px 5px black;
+  border-radius: 8px;
+}
+
+/*# sourceMappingURL=divMain.css.map */

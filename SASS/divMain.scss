@@ -22,3 +22,13 @@ $fondoShadow: black;
     font-size: 30px;
     text-align: center;
 }
+
+.div_Main-cronometro {
+    width: 1100px;
+    background-color: $fondoDivMain;
+    height: 720px;
+    margin: 0px auto;
+    border: 2px solid #636262;
+    box-shadow: 5px 5px 5px $fondoShadow;
+    border-radius: 8px;
+}
