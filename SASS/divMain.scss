@@ -7,6 +7,10 @@ $fondoShadow: black;
     box-sizing: border-box;
 }
 
+@mixin marginTop ($size) {
+    margin-top: $size;
+}
+
 .div_Main {
     width: 1100px;
     background-color: $fondoDivMain;
@@ -15,6 +19,7 @@ $fondoShadow: black;
     border: 2px solid #636262;
     box-shadow: 5px 5px 5px $fondoShadow;
     border-radius: 8px;
+    @include marginTop(15px);
 }
 
 .grid-item2 {
@@ -31,4 +36,5 @@ $fondoShadow: black;
     border: 2px solid #636262;
     box-shadow: 5px 5px 5px $fondoShadow;
     border-radius: 8px;
+    @include marginTop(15px);
 }
