@@ -1,0 +1,68 @@
+    body{
+        background: #f5f3f4;
+    }
+
+    @media (max-width: 575.98px) { 
+    /* body{background: red;}*/
+
+        .div_Main-cronometro {
+            width: 100%;
+            background-color: #ffe066;
+            height: 720px;
+            margin-top: 15px;
+        }
+
+        #title-main{
+            font-size: 25px;
+        }
+
+        #screen{
+            font-size: 30px;
+        }
+
+        .emerald {
+            width: 45%;
+        }
+    }
+
+    @media (min-width: 576px) and (max-width: 767.98px) { 
+    /*body{background: green;}*/
+
+        .div_Main-cronometro {
+            width: 100%;
+            background-color: #ffe066;
+            height: 720px;
+            margin-top: 15px;
+        }
+
+        .emerald {
+            width: 30%;
+        }
+    }
+
+    @media (min-width: 768px) and (max-width: 991.98px) { 
+    /*body{background: yellow;}*******/
+
+        .div_Main-cronometro {
+            width: 100%;
+            background-color: #ffe066;
+            height: 720px;
+            margin-top: 15px;
+        }
+    }
+
+    @media (min-width: 992px) and (max-width: 1199.98px) { 
+        /*body{background: blue;}*/
+        
+        .div_Main-cronometro {
+            width: 100%;
+            background-color: #ffe066;
+            height: 720px;
+            margin-top: 15px;
+        }
+    }
+
+    @media (min-width: 1200px) { 
+        /*body{background: blueviolet;}*/
+
+    }
