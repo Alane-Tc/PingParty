@@ -56,12 +56,11 @@ body{
         background: #83c5be;
     }
 
-    #input-Person{
+    .inputs{
         width: 60%;
         padding: 6px;
         border-radius: 8px;
         border: 2px solid black;
         font-size: 15px;
-        background-color:#f5f3f4;
-
+        background-color:#f5f3f4; 
     }
