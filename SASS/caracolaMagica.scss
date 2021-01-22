@@ -1,0 +1,74 @@
+$colorBtn: #457b9d;
+$colorhover: #a8dadc;
+@use 'divMain';
+
+@mixin marginTop ($size) {
+    margin-top: $size;
+}
+
+@mixin marginBottom ($size) {
+    margin-bottom: $size;
+}
+
+@mixin fontSize ($size) {
+    font-size: $size;
+}
+
+/*Animation img*/
+.hover-rotate img {
+    transition: all 0.3s;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+.hover-rotate:hover img {
+    transform: scale(1.3) rotate(5deg);
+}
+
+/*Animation btn*/
+.btn-send{
+    width: 20%;
+    border: none;
+    padding: 8px;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 8px;
+    color: white;
+    margin-top: 15px;
+}
+
+.animated-border-button {
+    background-color: #141414;
+    border: none;
+    color: #ffffff;
+    outline: none;
+    padding: 12px 40px 10px;
+    position: relative;
+}
+
+.animated-border-button:before,
+.animated-border-button:after {
+    border: 0 solid transparent;
+    transition: all 0.3s;
+    content: '';
+    height: 0;
+    position: absolute;
+    width: 24px;
+}
+
+.animated-border-button:before {
+    border-top: 2px solid #141414;
+    right: 0;
+    top: -4px;
+}
+
+.animated-border-button:after {
+    border-bottom: 2px solid #141414;
+    bottom: -4px;
+    left: 0;
+}
+
+.animated-border-button:hover:before,
+.animated-border-button:hover:after {
+    width: 100%;
+}
