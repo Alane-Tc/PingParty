@@ -74,7 +74,12 @@
     <footer class="page-footer font-small blue">
 
         <!-- Copyright -->
-        <div class="footer-copyright text-center py-3">© 2020 Copyright:
+        <div class="footer-copyright text-center py-3">© <span>
+                <script>
+                    var d = new Date()
+                    document.write(d.getFullYear())
+                </script>
+            </span> Copyright:
             <a href="../index.html">PingParty</a>
         </div>
         <!-- Copyright -->
@@ -89,4 +94,5 @@
     <script src="../librerias/bootstrap-4.5.3-dist/js/bootstrap.bundle.min.js"></script>
     <script src="../JS/moneda2.js"></script>
 </body>
+
 </html>
